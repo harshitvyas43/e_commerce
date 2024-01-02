@@ -1,0 +1,24 @@
+.single-product{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.single-product .left{
+    width: 50vw;
+    background-color: black;
+}
+
+
+.single-product .right{
+    width: 50vw;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.single-product .right .details h4{
+    /* background-color: purple; */
+    border-bottom: 4px solid black;
+    display: inline;
+    padding-bottom: 20px;
+}

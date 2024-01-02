@@ -1,0 +1,20 @@
+.filter-box{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.products-container .left{
+    background-color: aqua;
+    width: 100vw;
+}
+.products{
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products div{
+    flex-basis: 30%;
+}
